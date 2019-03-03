@@ -19,5 +19,5 @@ class Account:
         return 'deposit successful for the amount {0}'.format(amount)
 
 
-acount = Account(500, 'Saving Account')
-print(acount.withdrawl(300))
+account = Account(500, 'Saving Account')
+print(account.withdrawl(300))
