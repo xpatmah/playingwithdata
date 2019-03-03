@@ -1,4 +1,6 @@
-from pythonmodule import calculate_area
+#from pythonmodule import calculate_area
+#from mainpackage import mymainscript
+from mainpackage.mainsubpackage import mysubscript
 
 
 class Circle:
@@ -11,7 +13,8 @@ class Circle:
         self.radius = radius
 
     def get_radius(self):
-        print(calculate_area(self.radius))
+        # print(mymainscript.calculate_area(self.radius))
+        print(mysubscript.calculate_area(self.radius))
         print(Circle.pi * self.radius * self.radius)
 
 
