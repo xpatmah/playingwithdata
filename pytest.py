@@ -1,5 +1,5 @@
-#from pythonmodule import calculate_area
-#from mainpackage import mymainscript
+# from pythonmodule import calculate_area
+# from mainpackage import mymainscript
 from mainpackage.mainsubpackage import mysubscript
 
 
