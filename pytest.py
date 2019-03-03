@@ -1,3 +1,6 @@
+from pythonmodule import calculate_area
+
+
 class Circle:
 
     owner = 'Anurag Anmol'
@@ -8,8 +11,9 @@ class Circle:
         self.radius = radius
 
     def get_radius(self):
+        print(calculate_area(self.radius))
         print(Circle.pi * self.radius * self.radius)
 
 
-dog = Circle('My Circle')
-print(dog.get_radius())
+dog = Circle(radius=23, name='My Circle')
+dog.get_radius()
